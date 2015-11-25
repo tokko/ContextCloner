@@ -1,4 +1,6 @@
 ﻿
+using System.Collections;
+using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Data.Common;
 using System.Data.Entity;
@@ -22,6 +24,7 @@ namespace ClientCode
         }
 
         public DbSet<Data> Datas { get; set; }
+        public DbSet<Data1> Datas1 { get; set; }
     }
 
     public class Data
@@ -30,5 +33,13 @@ namespace ClientCode
         public int Id { get; set; }
 
         public string Info { get; set; }
+    }
+
+    public class Data1
+    {
+        [Key]
+        public int Id { get; set; }
+
+        public virtual ICollection<Data> Datas { get; set; }
     }
 }
