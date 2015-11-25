@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContextCloner", "ContextCloner\ContextCloner.csproj", "{7A2601AF-5745-45C1-A86A-3FB6FD6E9640}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ContextClonerTests", "ContextClonerTests\ContextClonerTests.csproj", "{A61A2D44-804D-4848-85E1-B3B57887D23C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientCode", "ClientCode\ClientCode.csproj", "{46DA1F8E-F176-4865-933E-5A4A42783C60}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A2601AF-5745-45C1-A86A-3FB6FD6E9640}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A2601AF-5745-45C1-A86A-3FB6FD6E9640}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A2601AF-5745-45C1-A86A-3FB6FD6E9640}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A2601AF-5745-45C1-A86A-3FB6FD6E9640}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A61A2D44-804D-4848-85E1-B3B57887D23C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A61A2D44-804D-4848-85E1-B3B57887D23C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A61A2D44-804D-4848-85E1-B3B57887D23C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A61A2D44-804D-4848-85E1-B3B57887D23C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{46DA1F8E-F176-4865-933E-5A4A42783C60}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{46DA1F8E-F176-4865-933E-5A4A42783C60}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{46DA1F8E-F176-4865-933E-5A4A42783C60}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{46DA1F8E-F176-4865-933E-5A4A42783C60}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
